@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cars-The first page</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(243, 246, 242);
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .container {
+        width: 1200px;
+        /* height: 1550px; */
+        margin: 0 auto;
+        background-color: white;
+      }
+      .container img {
+        width: 100%;
+        display: block;
+      }
+      .container .nav-top {
+        height: 30px;
+        /* 阴影 */
+        box-shadow: 0px 10px 5px 1px rgba(0, 0, 0, 0.3);
+        /* background-color: aqua; */
+      }
+      .container .nav-top a {
+        font-size: 20px;
+        color: rgb(51, 51, 51);
+        text-decoration: none;
+        line-height: 30px;
+        padding: 0 138px;
+        display: inline-block;
+      }
+      .container .nav-top a:hover {
+        background-color: rgba(173, 173, 181, 0.5);
+      }
+
+      .container .content-car {
+        width: 100%;
+        margin-top: 30px;
+        /* border: 1px solid red; */
+        /* background-color: rgb(110, 83, 83); */
+      }
+
+      .container .content-car ul li {
+        width: 300px;
+        height: 300px;
+        list-style: none;
+        /* background-color: blue; */
+        margin-left: 75px;
+        text-align: center; /* 居中 */
+        /* border: 1px solid rgba(177, 27, 27, 0.9); */
+        display: inline-block;
+      }
+
+      .container .content-car ul li a {
+        font-size: 0;
+        width: 300px;
+        height: 200px;
+        line-height: 200px;
+        /* background-color: yellow; */
+        display: inline-block;
+      }
+      .container .content-car ul li a img {
+        width: auto;
+        height: 160px;
+        vertical-align: middle;
+        display: inline-block;
+      }
+      .container .content-car ul li h2 {
+        width: 100%;
+        height: 100px;
+        font-size: 30px;
+        line-height: 70px;
+      }
+      .container .content-car ul li h2:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- 最上侧的图 -->
+      <img src="photo/nav-top-photo-1.jpg" alt="nav-top" />
+
+      <!-- 导航 -->
+      <div class="nav-top">
+        <a href="#">Біз туралы</a>
+        <a href="#">Бізге хабарласу</a>
+        <a href="#">Бізге косылу</a>
+      </div>
+
+      <!-- 汽车样例大盒子 -->
+      <div class="content-car">
+        <ul>
+          <li>
+            <a href="02-01-Hyundai-Site.html" target="_blank"
+              ><img src="photo/Hyundai-Logo.png" alt=""
+            /></a>
+            <h2>Hyundai</h2>
+          </li>
+          <li>
+            <a href="#" target="_blank"
+              ><img src="photo/Kia-logo.jpg" alt=""
+            /></a>
+            <h2>KIA</h2>
+          </li>
+          <li>
+            <a href="#" target="_blank"
+              ><img src="photo/Chevrolet-Logo.png" alt=""
+            /></a>
+            <h2>Chevrolet</h2>
+          </li>
+          <li>
+            <a href="#" target="_blank"
+              ><img src="photo/Toyota-logo.jpg" alt=""
+            /></a>
+            <h2>Toyota</h2>
+          </li>
+          <li>
+            <a href="#" target="_blank"
+              ><img src="photo/LiXiang-Logo.png" alt=""
+            /></a>
+            <h2>Lixiang</h2>
+          </li>
+          <li>
+            <a href="#" target="_blank"
+              ><img src="photo/Changan-Logo.png" alt=""
+            /></a>
+            <h2>Changan</h2>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

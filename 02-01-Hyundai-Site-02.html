@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cars of Hyundai</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(243, 246, 242);
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .container {
+        width: 1200px;
+        /* height: 1550px; */
+        margin: 0 auto;
+        background-color: white;
+      }
+      .container img {
+        width: 100%;
+        display: block;
+      }
+      .container .nav-top {
+        height: 30px;
+        /* 阴影 */
+        box-shadow: 0px 10px 5px 1px rgba(0, 0, 0, 0.3);
+        /* background-color: aqua; */
+      }
+      .container .nav-top a {
+        font-size: 20px;
+        color: rgb(51, 51, 51);
+        text-decoration: none;
+        line-height: 30px;
+        padding: 0 138px;
+        display: inline-block;
+      }
+      .container .nav-top a:hover {
+        background-color: rgb(173, 173, 181);
+      }
+
+      .container .content-car {
+        width: 100%;
+        margin-top: 30px;
+        /* border: 1px solid red; */
+        /* background-color: rgb(110, 83, 83); */
+      }
+
+      .container .content-car h1 {
+        width: 180px;
+        font-size: 30px;
+        color: white;
+        height: 60px;
+        line-height: 60px;
+        background-color: rgba(40, 40, 48, 0.9);
+        text-align: center;
+        margin: 50px auto 0px auto;
+        border-radius: 45px;
+      }
+
+      .container .content-car ul {
+        margin-top: 20px;
+        /* border: 2px solid black; */
+      }
+
+      .container .content-car ul li {
+        width: 390px;
+        height: 500px;
+        list-style: none;
+        text-align: center;
+        display: inline-block;
+        /* border: 1px solid rgba(56, 154, 80, 0.9); */
+      }
+
+      .container .content-car ul li .carimg {
+        width: 100%;
+        height: 220px;
+        line-height: 220px;
+        display: inline-block;
+        /* background-color: blueviolet; */
+      }
+
+      .container .content-car .order li img {
+        width: 100%;
+        height: auto;
+        vertical-align: middle;
+        display: inline-block;
+      }
+
+      .container .content-car .order li h2 {
+        font-size: 25px;
+      }
+
+      .container .content-car .order li h2:hover {
+        text-decoration: underline;
+      }
+
+      /* 测试 */
+      .container .content-car .order li a {
+        color: #2a2929;
+        width: 100%;
+        height: 80px;
+        /* background-color: orange; */
+        font-size: 15px;
+        line-height: 80px;
+        text-decoration: none;
+        display: block;
+      }
+
+      .container .content-car .order li div a:hover {
+        background-color: orange;
+        text-decoration: underline;
+      }
+
+      .container .content-car .order li div .no-used {
+        color: rgba(0, 0, 0, 0);
+      }
+
+      .container .content-car .order li div .no-used:hover {
+        background-color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- 最上侧的图 -->
+      <img src="photo/nav-top-photo-1.jpg" alt="" />
+
+      <!-- 导航 -->
+      <div class="nav-top">
+        <a href="#">Біз туралы</a>
+        <a href="#">Бізге хабарласу</a>
+        <a href="#">Бізге косылу</a>
+      </div>
+
+      <!-- 汽车样例大盒子 -->
+      <div class="content-car">
+        <!-- 订购款 -->
+        <h1>На заказ</h1>
+        <ul class="order">
+          <!-- 伊兰特 -->
+          <li>
+            <div class="carimg">
+              <!-- 伊兰特图片 -->
+              <img src="02-photo/Elantra-photo.png" alt="Elantra-photo" />
+            </div>
+            <h2>Elantra</h2>
+            <!-- 配置链接 -->
+            <div>
+              <a href="02-01-01-Hyundai-GLX-Site.html" target="_blank">
+                Elantra 2024 1.5L CVT GLX</a
+              >
+              <a href="#"> Elantra 2024 1.5L CVT LUX</a>
+              <a href="#" class="no-used">&nbsp</a>
+            </div>
+          </li>
+
+          <!-- 索纳塔 -->
+          <li>
+            <div class="carimg">
+              <!-- 索纳塔图片 -->
+              <img src="02-photo/Sonata-photo.png" alt="Sonata-photo" />
+            </div>
+            <h2>Sonata</h2>
+            <!-- 配置链接 -->
+            <div>
+              <a href="#"> Sonata 2024 1.5T AT PRO</a>
+              <a href="#"> Sonata 2024 1.5T AT MAX</a>
+              <a href="#" class="no-used">&nbsp</a>
+            </div>
+          </li>
+
+          <!-- 索纳塔 N Line -->
+          <li>
+            <div class="carimg">
+              <!-- 图片 -->
+              <img
+                src="02-photo/SonataNLine-photo.png"
+                alt="SonataNLine-photo"
+              />
+            </div>
+            <h2>Sonata NLine</h2>
+            <!-- 配置链接 -->
+            <div>
+              <a href="#">Sonata NLine 2024 2.0T AT AIR</a>
+              <a href="#">Sonata NLine 2024 2.0T AT PRO</a>
+              <a href="#">Sonata NLine 2024 2.0T AT MAX</a>
+            </div>
+          </li>
+
+          <!-- Lafesta -->
+          <li>
+            <div class="carimg">
+              <!-- 图片 -->
+              <img src="02-photo/Lafesta-photo.png" alt="Lafesta-photo" />
+            </div>
+            <h2>Lafesta</h2>
+            <!-- 配置链接 -->
+            <div>
+              <a href="#">Lafesta 2023 1.5T DCT ЛЮКС</a>
+              <a href="#" class="no-used">&nbsp</a>
+              <a href="#" class="no-used">&nbsp</a>
+            </div>
+          </li>
+
+          <!-- Mufasa -->
+          <li>
+            <div class="carimg">
+              <!-- 图片 -->
+              <img src="02-photo/Mufasa.png" alt="Mufasa-photo" />
+            </div>
+            <h2>Mufasa</h2>
+            <!-- 配置链接 -->
+            <div>
+              <a href="#">Mufasa 2024 2.0 AT ЛЮКС</a>
+              <a href="#" class="no-used">&nbsp</a>
+              <a href="#" class="no-used">&nbsp</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
